@@ -17,6 +17,10 @@ declare interface FieldPacket {
     table: string;
     type: number;
     zerofill: boolean;
+    characterSet: number;
+    encoding: string;
+    columnLength: number;
+    columnType: number;
 }
 
 export = FieldPacket;
